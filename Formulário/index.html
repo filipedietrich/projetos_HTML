@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Página de cadastro</h1>
+        </div>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <form action="" method="get">
+      <div class="dados">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nome">
+            Nome completo:<br />
+            <input
+              type="text"
+              name="nome"
+              placeholder="Nome"
+              id="nome"
+              autofocus
+            />
+          </label>
+          <label for="nascimento">
+            Data de nascimento:<br />
+            <input type="date" name="data_de_nascimento" id="nascimento" />
+          </label>
+          <label for="cpf">
+            CPF:<br />
+            <input type="number" name="CPF" placeholder="CPF" id="cpf" />
+          </label>
+          <label for="rg">
+            RG:<br />
+            <input type="number" name="RG" placeholder="RG" id="rg" />
+          </label>
+          <label for="nome_mae">
+            Nome da mãe completo:<br />
+            <input
+              type="text"
+              name="nome_mae"
+              placeholder="Nome da mãe"
+              id="nome_mae"
+            />
+          </label>
+          <label for="cor_de_pele">
+            Cor de pele: <br />
+            <select name="cor_de_pele" id="cor_de_pele">
+              <option>Branca</option>
+              <option>Negra</option>
+              <option>Parda</option>
+              <option>Amarela</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Dados Cadastrais</legend>
+          <label for="telefone">
+            Telefone:<br />
+            <input
+              type="tel"
+              name="telefone"
+              placeholder="Telefone"
+              id="telefone"
+            />
+          </label>
+          <label for="email">
+            Digite seu e-mail:<br />
+            <input type="email" name="email" placeholder="e-mail" id="email" />
+          </label>
+          <label for="email_conf">
+            Confirmar e-mail:<br />
+            <input
+              type="email"
+              name="email_conf"
+              placeholder="confirmar e-mail"
+              id="email_conf"
+            />
+          </label>
+          <label for="senha">
+            senha:<br />
+            <input
+              type="password"
+              name="senha"
+              placeholder="senha"
+              id="senha"
+            />
+          </label>
+        </fieldset>
+      </div>
+      <div class="final">
+        <label for="confirmacao">
+          <input type="checkbox" name="confirmacao" id="confirmacao" required />
+          Li e concordo com os
+          <a href="/pages/termo.html" target="_blank">termos de serviço.</a>
+        </label>
+        <button>Fazer cadastro</button>
+      </div>
+    </form>
+    <footer>
+      Página desenvolvida por Filipe Mattos Dietrich em 06/11/2023
+    </footer>
+  </body>
+</html>

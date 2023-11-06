@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #74bf9d;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 990px;
+  border: 3px solid #1c8080;
+  background-color: #56a292;
+  color: #fbebaf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  align-content: center;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  margin: 10px;
+}
+form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dados {
+  display: flex;
+}
+fieldset {
+  width: 450px;
+  border: 2px solid #1c8080;
+  background-color: #56a292;
+  color: #fbebaf;
+}
+legend {
+  background-color: #74bf9d;
+  border: 2px solid #1c8080;
+  padding: 10px;
+}
+.final {
+  margin-top: 10px;
+  padding: 10px;
+  width: 940px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 2px solid #1c8080;
+  background-color: #56a292;
+  color: #fbebaf;
+}
+a {
+  color: #fbebaf;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input {
+  width: 250px;
+  padding: 5px;
+  margin-top: 2px;
+  border: 1px solid #fbebaf;
+  background-color: #74bf9d;
+  color: #fbebaf;
+  outline: 0;
+}
+input::placeholder {
+  color: #fbebaf;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+select {
+  background-color: #74bf9d;
+  color: #fbebaf;
+  border: 1px solid #fbebaf;
+  margin-top: 5px;
+}
+button {
+  padding: 5px;
+  border: 2px solid #1c8080;
+  background-color: #ff1d44;
+  margin-top: 2px;
+  width: 120px;
+  color: #fbebaf;
+}
+button:hover {
+  background-color: #1c8080;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #fbebaf;
+  background-color: #1c8080;
+  border-top: 2px solid #56a292;
+}
